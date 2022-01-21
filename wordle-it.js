@@ -1311,8 +1311,14 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
     ns.innerHTML = "\n  <button>key</button>\n";
     var is = document.createElement("template");
     is.innerHTML = '\n  <div class="spacer"></div>\n';
+    // var ls = [
+    //     ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
+    //     ["-", "a", "s", "d", "f", "g", "h", "j", "k", "l", "-"],
+    //     ["↵", "z", "x", "c", "v", "b", "n", "m", "←"]
+    // ],
+
     var ls = [
-        ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
+        ["я", "в", "е", "р", "т", "ъ", "у", "и", "о", "п"],
         ["-", "a", "s", "d", "f", "g", "h", "j", "k", "l", "-"],
         ["↵", "z", "x", "c", "v", "b", "n", "m", "←"]
     ],
