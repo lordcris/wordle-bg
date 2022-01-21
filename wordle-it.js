@@ -11460,9 +11460,9 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                             isHardMode: e.gameApp.hardMode,
                             isWin: e.gameApp.gameStatus === Za
                         }), (function () {
-                            e.gameApp.addToast("Risultati copiati", 2e3, !0)
+                            e.gameApp.addToast("Резултатите са копирани", 2e3, !0)
                         }), (function () {
-                            e.gameApp.addToast("Errore nella condivisione", 2e3, !0)
+                            e.gameApp.addToast("Грешка при споделянето", 2e3, !0)
                         }))
                     }))
                 }
