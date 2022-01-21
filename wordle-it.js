@@ -1000,7 +1000,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
     function Na(e) {
         return $a(Ra, e)
     }
-    var Ha, Ga = "abcdefghijklmnopqrstuvwxyz";
+    var Ha, Ga = "абвгдежзийклмнопрстуфхцчшщъьюя";
 
     function Da() {
         dataLayer.push(arguments)
