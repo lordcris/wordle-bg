@@ -11207,13 +11207,13 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                         }
                     })), this.shadowRoot.getElementById("settings").addEventListener("click", (function (a) {
                         var s = e.$game.querySelector("game-page"),
-                            t = document.createTextNode("Impostazioni");
+                            t = document.createTextNode("Опции");
                         s.appendChild(t);
                         var o = document.createElement("game-settings");
                         o.setAttribute("slot", "content"), o.gameApp = e, s.appendChild(o), s.setAttribute("open", "")
                     })), this.shadowRoot.getElementById("help").addEventListener("click", (function (a) {
                         var s = e.$game.querySelector("game-page"),
-                            t = document.createTextNode("Come giocare");
+                            t = document.createTextNode("Как се играе");
                         s.appendChild(t);
                         var o = document.createElement("game-help");
                         o.setAttribute("page", ""), o.setAttribute("slot", "content"), s.appendChild(o), s.setAttribute("open", "")
