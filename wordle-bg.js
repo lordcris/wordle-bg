@@ -11055,7 +11055,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                     if (5 === this.tileIndex && !(this.rowIndex >= 6)) {
                         var e, a = this.$board.querySelectorAll("game-row")[this.rowIndex],
                             s = this.boardState[this.rowIndex];
-                        if (e = s, !La.includes(e) && !Aa.includes(e)) return a.setAttribute("invalid", ""), void this.addToast("Non nella lista di parole");
+                        if (e = s, !La.includes(e) && !Aa.includes(e)) return a.setAttribute("invalid", ""), void this.addToast("Не е в списъка с думи.");
                         if (this.hardMode) {
                             var t = function (e, a, s) {
                                 if (!e || !a || !s) return {
