@@ -1369,7 +1369,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                         var s = document.createElement("div");
                         s.classList.add("row"), a.forEach((function (e) {
                             var a;
-                            if (e >= "a" && e <= "z" || "←" === e || "↵" === e) {
+                            if (e >= "а" && e <= "я" || "←" === e || "↵" === e) {
                                 if ((a = ns.content.cloneNode(!0).firstElementChild).dataset.key = e, a.textContent = e, "←" === e) {
                                     var t = document.createElement("game-icon");
                                     t.setAttribute("icon", "backspace"), a.textContent = "", a.appendChild(t), a.classList.add("one-and-a-half")
