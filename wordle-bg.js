@@ -11451,7 +11451,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                                     }
                                 })), d += "\n")
                             })), {
-                                text: "".concat(l, "\n\n").concat(d.trimEnd()).concat("\n\n", "https://lordcris.github.io/wordle-bg/")
+                                text: "".concat(l, "\n\n").concat(d.trimEnd())
                             }
                         }({
                             evaluations: e.gameApp.evaluations,
