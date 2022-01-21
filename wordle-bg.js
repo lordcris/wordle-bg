@@ -10969,7 +10969,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
         dataLayer.push(arguments)
     }
     window.dataLayer = window.dataLayer || [], Da("js", new Date);
-    Da("config", "G-2SSGMHY3NP", {
+    Da("config", "G-D8D5SKH1J5", {
         app_version: null === (Ha = window.wordle) || void 0 === Ha ? void 0 : Ha.hash,
         debug_mode: !1
     });
