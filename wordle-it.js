@@ -10947,7 +10947,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                 }
         })), s
     }
-    var Ra = new Date(2021, 6, 1, 0, 0, 0, 0);
+    var Ra = new Date(2021, 12, 1, 0, 0, 0, 0);
 
     function $a(e, a) {
         var s = new Date(e),
