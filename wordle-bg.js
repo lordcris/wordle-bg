@@ -7882,7 +7882,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                 key: "submitGuess",
                 value: function () {
                     if (this.gameStatus === Qa && this.canInput) {
-                        if (5 !== this.tileIndex) return this.$board.querySelectorAll("game-row")[this.rowIndex].setAttribute("invalid", ""), void this.addToast("Non abbastanza lettere");
+                        if (5 !== this.tileIndex) return this.$board.querySelectorAll("game-row")[this.rowIndex].setAttribute("invalid", ""), void this.addToast("Недостатъчно букви");
                         this.evaluateRow()
                     }
                 }
