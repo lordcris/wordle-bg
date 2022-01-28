@@ -7804,7 +7804,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                                 for (var t = 0; t < s.length; t++)
                                     if (s[t] === Ia && e[t] !== a[t]) return {
                                         validGuess: !1,
-                                        errorMessage: "".concat((o = t + 1, r = void 0, n = void 0, r = ["th", "st", "nd", "rd"], n = o % 100, o + (r[(n - 20) % 10] || r[n] || r[0])), " letter must be ").concat(a[t].toUpperCase())
+                                        errorMessage: "".concat((o = t + 1, r = void 0, n = void 0, r = ["-та", "-та", "-та", "-та"], n = o % 100, o + (r[(n - 20) % 10] || r[n] || r[0])), " трабва да бъде ").concat(a[t].toUpperCase())
                                     };
                                 for (var o, r, n, i = {}, l = 0; l < s.length; l++) [Ia, Ta].includes(s[l]) && (i[a[l]] ? i[a[l]] += 1 : i[a[l]] = 1);
                                 var d = e.split("").reduce((function (e, a) {
@@ -7813,7 +7813,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                                 for (var u in i)
                                     if ((d[u] || 0) < i[u]) return {
                                         validGuess: !1,
-                                        errorMessage: "Guess must contain ".concat(u.toUpperCase())
+                                        errorMessage: "Отговорът трябва да съдържа ".concat(u.toUpperCase())
                                     };
                                 return {
                                     validGuess: !0
@@ -7821,7 +7821,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                             }(s, this.boardState[this.rowIndex - 1], this.evaluations[this.rowIndex - 1]),
                                 o = t.validGuess,
                                 r = t.errorMessage;
-                            if (!o) return a.setAttribute("invalid", ""), void this.addToast(r || "Non valido quando il gioco si fa duro")
+                            if (!o) return a.setAttribute("invalid", ""), void this.addToast(r || "Невалидно когато играта загрубява.")
                         }
                         var n = function (e, a) {
                             for (var s = Array(a.length).fill(Ca), t = Array(a.length).fill(!0), o = Array(a.length).fill(!0), r = 0; r < e.length; r++) e[r] === a[r] && o[r] && (s[r] = Ia, t[r] = !1, o[r] = !1);
@@ -7941,7 +7941,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                             r = s.disabled;
                         switch (t) {
                             case "hard-mode":
-                                return void (r ? e.addToast("Si può attivare 'il gioco si fa duro' solo all'inizio di una partita", 1500, !0) : (e.hardMode = o, ja({
+                                return void (r ? e.addToast("Тази опция може да се активира само в началото на играта.", 1500, !0) : (e.hardMode = o, ja({
                                     hardMode: o
                                 })))
                         }
