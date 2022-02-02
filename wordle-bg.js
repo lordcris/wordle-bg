@@ -7845,7 +7845,8 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                             }));
                         if (i || l) Xa({
                             isWin: l,
-                            isStreak: !!this.lastCompletedTs && 1 === $a(new Date(this.lastCompletedTs), new Date),
+                            //isStreak: !!this.lastCompletedTs && 1 === $a(new Date(this.lastCompletedTs), new Date),
+                            isStreak: !!this.lastCompletedTs,
                             numGuesses: this.rowIndex
                         }), ja({
                             lastCompletedTs: Date.now()
